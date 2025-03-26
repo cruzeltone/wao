@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>We Are One - Mental Health Organization</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>We Are One</h1>
+        <p>Your mental health matters. Together, we can break the stigma.</p>
+    </header>
+
+    <div class="container">
+
+        <section class="intro">
+            <h2>About Us</h2>
+            <div class="content-section">
+                <p>Hello! My name is <strong>Cruzz Eltone</strong>, and I am the founder of <strong>We Are One</strong>. 
+                In June 2024, I decided to take action after realizing how many people were suffering from mental health struggles, 
+                but lacked the support they needed. I turned to TikTok to connect with those struggling and found a community 
+                that needed to be heard. We Are One is a platform dedicated to breaking the stigma surrounding mental health 
+                and providing a safe space where people can share their stories and find support.</p>
+            </div>
+        </section>
+
+        <!-- Membership Form Section -->
+        <section class="membership-form">
+            <h2>Become a Member</h2>
+            <div class="content-section">
+                <p>If you want to be part of our community and help break the stigma around mental health, become a member of 
+                <strong>We Are One</strong>. Fill out the form below, and we will reach out to you with more information.</p>
+                <form action="register_member.php" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="phone" name="phone" placeholder="Your Phone Number" required>
+                    <button type="submit">Join the Movement</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Untold Stories Section -->
+        <section class="untold-stories">
+            <h2>Your Untold Stories</h2>
+            <div class="content-section">
+                <p>We believe every story matters, and by sharing, we help others heal. If you want to share your experience 
+                with mental health, fill out the form below. Your story will be published on our website to help others feel 
+                heard and understood.</p>
+                <form action="submit_story.php" method="POST">
+                    <textarea name="story" rows="6" placeholder="Write your untold story here..." required></textarea>
+                    <button type="submit">Submit My Story</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <div class="content-section">
+                <p>If you have any questions or need support, feel free to reach out to us. We are always here to listen and help. 
+                Send us a message, and we'll get back to you as soon as possible.</p>
+                <form action="mailto:weareone0624@gmail.com" method="POST" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 We Are One. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
